@@ -1,11 +1,11 @@
 import React from "react";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import News from "./components/News";
+import Rooms from "./components/Rooms";
 
 export default (
-  <Router>
-    <Switch>
-      <Route exact path="/" component={News} />
-    </Switch>
-  </Router>
+  <Switch>
+    <Route exact path="/" component={News} />
+    <Route exact path="/rooms" component={Rooms} />
+  </Switch>
 );

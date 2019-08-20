@@ -1,14 +1,14 @@
 import React from "react";
-import Dashboard from "../src/components/Dashboard";
+import Menu from "./components/Menu";
+import routes from "./routes";
 import "./App.css";
-import routes from './routes'
 
 function App() {
   return (
     <div className="App">
-      <Dashboard />
+      <Menu />
+      {routes}
     </div>
   );
 }
-
 export default App;

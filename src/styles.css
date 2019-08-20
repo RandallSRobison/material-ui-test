@@ -1,5 +1,5 @@
 .App {
-    flex-grow: 1;
+    /* flex-grow: 1; */
   }
   .tool-bar {
     background: #52586d;
@@ -13,10 +13,9 @@
   
   .header {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
   }
-
+  
   .logout-parent {
       display: flex;
       justify-content: flex-end;
