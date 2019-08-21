@@ -19,7 +19,6 @@ import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
 import FriendsList from "./FriendsList";
 import "./Menu.css";
-import "../Styles.css";
 
 const drawerWidth = 240;
 
@@ -110,7 +109,7 @@ const chevronStyle = {
   color: "white"
 };
 
-export default function MiniDrawer() {
+export default function Menu() {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
@@ -149,9 +148,11 @@ export default function MiniDrawer() {
             Logo
           </Typography>
           <div className="logout-parent">
+            <Link to='/'>
             <Button variant="contained" style={buttonStyle}>
               Logout
             </Button>
+            </Link>
           </div>
         </Toolbar>
       </AppBar>
@@ -187,7 +188,7 @@ export default function MiniDrawer() {
         </div>
         <Divider />
         <List>
-          <Link className="list-item-text" to="/">
+          <Link className="list-item-text" to="/home/:selectedServer">
             <ListItem style={listItemStyle} button>
               News
             </ListItem>

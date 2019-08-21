@@ -1,3 +1,7 @@
-.text-channel-container {
-    background: #52586d;
+.text-channel-containerz {
+  width: 65.1vw;
+  height: 100vh;
+  background: #52586d;
+  position: absolute;
+  left: 215px;
 }

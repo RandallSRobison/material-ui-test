@@ -1,0 +1,33 @@
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  background: #52586d;
+  position: absolute;
+  left: 73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  height: 325px;
+  width: 475px;
+  background: #313442;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.dude-container {
+  height: 100%;
+  width: 50%;
+  background: transparent;
+}
+
+.button-container {
+  /* height: 100%; */
+  /* width: 50%; */
+  /* background: transparent; */
+  display: flex;
+  padding-left: 25px;
+}
